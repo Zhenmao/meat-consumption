@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.125rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.beef {
+  color: #ff99d8;
+  background-color: #ff99d8;
+}
+
+.pig {
+  color: #9ddef0;
+  background-color: #9ddef0;
+}
+
+.poultry {
+  color: #bb92d5;
+  background-color: #bb92d5;
+}
+
+.sheep {
+  color: #9be8d8;
+  background-color: #9be8d8;
+}
+
+body {
+  margin: 2rem;
+}
+
+body > * + * {
+  margin-top: 2rem;
+}
+
+header,
+main,
+footer {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 800px) {
+  header {
+    display: flex;
+  }
+
+  .intro {
+    margin-left: 2rem;
+  }
+}
+
+.intro span {
+  display: inline-block;
+  color: #000000;
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+
+footer {
+  font-size: 0.75rem;
+}
+
+.label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-group {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.btn-check {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+.btn-group > .btn:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-group > .btn:nth-child(n + 3) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-group > .btn-check:checked + .btn,
+.btn-group > .btn:focus,
+.btn-group > .btn:hover {
+  z-index: 1;
+}
+
+.btn-group > .btn:not(:first-child) {
+  margin-left: -1px;
+}
+
+.btn-check:checked + .btn {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-group > .btn {
+  position: relative;
+  flex: 1 1 auto;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid #000000;
+  padding: 0.125rem 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-check:focus + .btn {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 50%);
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.axis {
+  font-size: 00.75rem;
+}

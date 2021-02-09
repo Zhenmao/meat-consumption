@@ -1,0 +1,36 @@
+Country,Alpha-2 code,Alpha-3 code,Numeric
+Australia,AU,AUS,036
+Canada,CA,CAN,124
+Japan,JP,JPN,392
+South Korea,KR,KOR,410
+Mexico,MX,MEX,484
+New Zealand,NZ,NZL,554
+Turkey,TR,TUR,792
+United States,US,USA,840
+Argentina,AR,ARG,032
+Brazil,BR,BRA,076
+Chile,CL,CHL,152
+China,CN,CHN,156
+Colombia,CO,COL,170
+Egypt,EG,EGY,818
+Ethiopia,ET,ETH,231
+India,IN,IND,356
+Indonesia,ID,IDN,360
+Iran,IR,IRN,364
+Israel,IL,ISR,376
+Kazakhstan,KZ,KAZ,398
+Malaysia,MY,MYS,458
+Nigeria,NG,NGA,566
+Pakistan,PK,PAK,586
+Paraguay,PY,PRY,600
+Peru,PE,PER,604
+Philippines,PH,PHL,608
+Russia,RU,RUS,643
+Saudi Arabia,SA,SAU,682
+South Africa,ZA,ZAF,710
+Thailand,TH,THA,764
+Ukraine,UA,UKR,804
+Vietnam,VN,VNM,704
+Norway,NO,NOR,578
+Switzerland,CH,CHE,756
+United Kingdom,GB,GBR,826

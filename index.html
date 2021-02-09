@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meat Consumption</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meat consumption Indicator</h1>
+      <div class="intro">
+        <p>
+          Meat consumption indicator is presented for
+          <span class="beef">beef and veal</span>, <span class="pig">pig</span>,
+          <span class="poultry">poultry</span>, and
+          <span class="sheep">sheep</span> from year 2019. It is measured in
+          kilograms of retail weight per capita.
+        </p>
+        <div id="stack-toggle"></div>
+      </div>
+    </header>
+    <main>
+      <div id="chart-container" class="chart-container"></div>
+    </main>
+    <footer>
+      <p>Notes:</p>
+      <ul>
+        <li>
+          Data source:
+          <a
+            href="https://data.oecd.org/agroutput/meat-consumption.htm"
+            title="OECD"
+            >OECD (2021), Meat consumption (indicator)</a
+          >. doi: 10.1787/fa290fd0-en (Accessed on 08 February 2021)
+        </li>
+        <li>
+          Icons made by
+          <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+          <a href="https://www.flaticon.com/" title="Flaticon"
+            >www.flaticon.com</a
+          >
+        </li>
+        <li>
+          Code inspiration:
+          <a href="https://observablehq.com/@mkfreeman/separated-bar-chart"
+            >Separated Bar Chart</a
+          >
+        </li>
+        <li>
+          Color scheme:
+          <a href="https://www.shantisparrow.com/oh-hey-magazine"
+            >Shanti Sparrow</a
+          >
+        </li>
+      </ul>
+    </footer>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
